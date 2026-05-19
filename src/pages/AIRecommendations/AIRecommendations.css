@@ -1,0 +1,149 @@
+.ai-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: #020617;
+  box-sizing: border-box;
+}
+
+.ai-title {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
+
+.kpi-input-row {
+  max-width: 760px;
+  margin: 0 auto 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: white;
+}
+
+.kpi-input-row label {
+  font-size: 1rem;
+  color: #cbd5e1;
+}
+
+.kpi-input-row input {
+  width: 100%;
+  padding: 16px;
+  border-radius: 14px;
+  border: none;
+  background: #0f172a;
+  color: white;
+  font-size: 1rem;
+}
+
+.api-key-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.api-key-container input {
+  width: 100%;
+  max-width: 400px;
+  padding: 16px;
+  border-radius: 14px;
+  border: none;
+  background: #0f172a;
+  color: white;
+  font-size: 1rem;
+}
+
+.api-key-container button {
+  padding: 16px 24px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(
+    135deg,
+    #38bdf8,
+    #2563eb
+  );
+
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ai-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(320px, 1fr)
+  );
+
+  gap: 30px;
+}
+
+.ai-card {
+  background: #f8fafc;
+  border-radius: 28px;
+  padding: 30px;
+  text-align: center;
+}
+
+.ai-card img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.ai-card h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #020617;
+}
+
+.ai-card p {
+  color: #1f2937;
+}
+
+.recommendation-box {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #e2e8f0;
+  text-align: left;
+  line-height: 1.7;
+  color: #020617;
+}
+
+.ai-card button {
+  background: linear-gradient(
+    135deg,
+    #38bdf8,
+    #2563eb
+  );
+
+  border: none;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.recommendation-box {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #e2e8f0;
+  text-align: left;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .ai-page {
+    padding: 20px;
+  }
+
+  .ai-title {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,72 @@
+.coin-card {
+  background: linear-gradient(
+    145deg,
+    #081120,
+    #0f172a
+  );
+
+  border-radius: 22px;
+
+  padding: 20px;
+
+  border: 1px solid rgba(255,255,255,0.06);
+
+  transition: 0.3s;
+}
+
+.coin-card:hover {
+  transform: translateY(-5px);
+}
+
+.coin-card img {
+  width: 90px;
+  height: 90px;
+
+  object-fit: contain;
+
+  display: block;
+  margin: 0 auto 18px auto;
+}
+
+.coin-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+}
+
+.coin-card p {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.coin-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coin-actions button {
+  border: none;
+
+  background: linear-gradient(
+    135deg,
+    #38bdf8,
+    #2563eb
+  );
+
+  color: white;
+
+  padding: 10px 16px;
+
+  border-radius: 12px;
+
+  font-weight: 700;
+}
+
+.coin-actions input[type='checkbox'] {
+  width: 22px;
+  height: 22px;
+
+  accent-color: #38bdf8;
+
+  cursor: pointer;
+}
